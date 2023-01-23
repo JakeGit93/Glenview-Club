@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #184E77, #184E77);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    max-width: 1920px;
+}
+
+.aurora-container{
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    z-index: -1;
+}
+
+#gradient1{
+    position: relative;
+    left: 85%;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: rgba(52, 160, 164, 0.5);
+    filter: blur(100px);
+}
+
+#gradient2{
+    position: relative;
+    top: -100px;
+    right: 15%;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: rgba(82, 182, 154, 0.5);
+    filter: blur(100px);
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(143, 150, 180, 0.0);
+    width: 65%;
+    border-radius: 0 0 10px 10px;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+}
+
+.nav-list{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    background-color: transparent;
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: underline 1px rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+}
+
+.nav-item a:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+
+.header-container{
+    margin-top: 10%;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 100px;
+    font-weight: normal;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    margin-left: 250px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 200;
+    max-width: 900px;
+    text-align: justify;
+    position: absolute;
+    z-index: 1;
+    margin-left: 250px;
+    top: 480px;
+}
+
+.image-wave{
+    position: relative;
+    object-fit: scale-down;
+    width: 100%;
+    top: -50px;
+}
+
+.explore{
+    position: relative;
+    font-size: 35px;
+    font-weight: 200;
+    top:-30px;
+}
+
+@keyframes colorchange{
+    from{background-color: rgba(143, 150, 180, 0.0);}
+    to{background-color:rgba(143, 150, 180, 0.2);}
+}
