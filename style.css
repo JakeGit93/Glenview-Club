@@ -119,12 +119,52 @@ h2{
     top: -50px;
 }
 
-.explore{
+.explorebutton{
     position: relative;
     font-size: 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
     font-weight: 200;
     top:-30px;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(143, 150, 180, 0.5);
+    width: 200px;
 }
+
+.exploreContainer{
+    background-color: white;
+}
+
+.eat{
+    margin: 0 auto;
+    width: 1200px;
+    height: 667px;
+}
+
+#foodimage{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes colorchange{
     from{background-color: rgba(143, 150, 180, 0.0);}
