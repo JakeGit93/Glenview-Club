@@ -129,13 +129,22 @@ h2{
     font-weight: 200;
     margin: 0 auto;
     color: white;
-    background-color: rgba(143, 150, 180, 0.5);
-    width: 200px;
+    background-color: rgba(56, 85, 213, 0.2);
+    backdrop-filter: blur(2px);
+    width: 225px;
+    height: 85px;
+    top: -100px;
+    bottom: 20px;
 }
 
 .active, .explorebutton:hover {
-    background-color: #ccc;
+    background-color: rgba(255, 255, 255, 0.2);
   }
+
+.explorebutton a{
+    color: white;
+    text-decoration: none;
+}
 
 .exploreContainer{
     background-color: #89A13D;
@@ -158,7 +167,82 @@ h2{
 
 }
 
+.drink{
 
+}
+
+#drinkimage{
+
+}
+
+.events{
+
+}
+
+#eventsimage{
+
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 225px;
+    background-color: #144265;
+}
+
+.footerleft{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-align: left;
+}
+
+#footertitle{
+    float: left;
+    margin-left: 20px;
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+#footerphone{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-decoration: underline;
+    color: white;
+    width: 250px;
+}
+
+#footerinfo{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.footernav{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#footernavtitle{
+    text-decoration: underline;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: start;
+}
+
+#footernavlist{
+    margin-top: 10px;
+    text-align: start;
+    text-decoration: none;
+    font-weight: 200;
+    list-style: none;
+}
 
 
 
