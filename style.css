@@ -73,13 +73,13 @@ body{
     margin-left: 4rem;
 }
 
-.nav-item a{
+a{
     color: white;
     text-decoration: underline 1px rgba(255, 255, 255, 0);
     transition: text-decoration-color 300ms;
 }
 
-.nav-item a:hover{
+a:hover{
     text-decoration-color: rgba(255, 255, 255, 1);
 }
 
@@ -135,10 +135,24 @@ h2{
     height: 85px;
     top: -100px;
     bottom: 20px;
+    transition: transform .2s;
 }
 
-.active, .explorebutton:hover {
+#shadow{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 240px;
+    height: 30px;
+    border-radius: 10px;
+    transform: skewX(60deg);
+    left: -60px;
+    filter: blur(5px);
+}
+
+
+.active, .explorebutton:hover{
     background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
   }
 
 .explorebutton a{
@@ -154,9 +168,15 @@ h2{
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    transition: max-height 0.5s ease-out;
     background-color: white;
     text-align: center;
+    width: auto;
+}
+
+#eatcontainer:hover{
+    transform: scale(1.05);
+    z-index: 1;
 }
 
 #foodimage{
@@ -164,26 +184,77 @@ h2{
     margin-bottom: 50px;
     max-width: 1220px;
     max-height: 667px;
-
 }
 
-.drink{
+#eatcontainer{
+    position: relative;
+    text-align: center;
+    transition: 0.1s;
+    margin: 0 auto;
+    width: 1000px;
+    height: 667px;
+    cursor: pointer;
+}
 
+.textbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 200;
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(3px);
+    width: 1000px;
 }
 
 #drinkimage{
-
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1220px;
+    max-height: 667px;
 }
 
-.events{
-
+#drinkcontainer{
+    position: relative;
+    text-align: center;
+    transition: 0.1s;
+    margin: 0 auto;
+    width: 1000px;
+    height: 667px;
+    cursor: pointer;
 }
+
+#drinkcontainer:hover{
+    transform: scale(1.05);
+    z-index: 1;
+}
+
 
 #eventsimage{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1220px;
+    max-height: 667px;
+}
 
+#eventscontainer{
+    position: relative;
+    text-align: center;
+    transition: 0.1s;
+    margin: 0 auto;
+    width: 1000px;
+    height: 667px;
+    cursor: pointer;
+}
+
+#eventscontainer:hover{
+    transform: scale(1.05);
+    z-index: 1;
 }
 
 .footer{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -228,6 +299,7 @@ h2{
     font-weight: 200;
 }
 
+
 #footernavtitle{
     text-decoration: underline;
     margin-top: 20px;
@@ -243,6 +315,7 @@ h2{
     font-weight: 200;
     list-style: none;
 }
+
 
 
 
