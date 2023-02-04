@@ -16,6 +16,7 @@ body{
     text-align: center;
     max-width: 1920px;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .aurora-container{
@@ -136,6 +137,7 @@ h2{
 }
 
 .explorebutton{
+    font-family: 'Poppins', sans-serif;
     position: relative;
     font-size: 35px;
     border: none;
@@ -149,7 +151,7 @@ h2{
     width: 225px;
     height: 85px;
     top: -100px;
-    transition: transform .2s;
+    animation: bounce .9s infinite alternate;
 }
 
 #shadow{
@@ -166,7 +168,6 @@ h2{
 
 .active, .explorebutton:hover{
     background-color: rgba(255, 255, 255, 0.2);
-    transform: scale(1.05);
   }
 
 .explorebutton a{
@@ -178,6 +179,7 @@ h2{
     background-color: #89A13D;
 }
 
+
 .eat{
     padding: 0 18px;
     max-height: 0;
@@ -186,6 +188,10 @@ h2{
     text-align: center;
     width: auto;
     background: linear-gradient(#89A13D, #184E77);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #eatcontainer:hover{
@@ -202,7 +208,7 @@ h2{
     font-weight: 200;
     background-color: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(3px);
-    width: 1000px;
+    width: 500px;
 }
 
 
@@ -211,15 +217,14 @@ h2{
     text-align: center;
     transition: 0.1s;
     margin: 0 auto;
-    width: 1000px;
-    height: 300px;
+    width: 500px;
+    height: 750px;
     cursor: pointer;
     background-image: url("media/spencer-davis-W_GSHCi0cR8-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px, -50px;
+    background-position: -250px, -50px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    margin-top: 50px;
 }
 
 
@@ -228,13 +233,13 @@ h2{
     text-align: center;
     transition: 0.1s;
     margin: 0 auto;
-    width: 1000px;
-    height: 300px;
+    width: 500px;
+    height: 750px;
     cursor: pointer;
     background-image: url("media/kelsey-knight-udj2tD3WKsY-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px, -50px;
+    background-position: -100px, 0px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -249,13 +254,13 @@ h2{
     text-align: center;
     transition: 0.1s;
     margin: 0 auto;
-    width: 1000px;
-    height: 300px;
+    width: 500px;
+    height: 750px;
     cursor: pointer;
     background-image: url("media/al-elmes-ULHxWq8reao-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px, -50px;
+    background-position: -200px, 500px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -379,4 +384,8 @@ h2{
 @keyframes colorchange{
     from{background-color: rgba(143, 150, 180, 0.0);}
     to{background-color:rgba(143, 150, 180, 0.2);}
+}
+
+@keyframes bounce{
+    to { transform: scale(1.1); }
 }
