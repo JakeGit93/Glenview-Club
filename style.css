@@ -63,7 +63,7 @@ body{
     top: 0;
     z-index: 2;
     background-color: rgba(143, 150, 180, 0.0);
-    width: 65%;
+    width: 85%;
     border-radius: 0 0 10px 10px;
     margin: 0 auto;
     backdrop-filter: blur(10px);
@@ -74,15 +74,21 @@ body{
     font-size: 12px;
     background-color: transparent;
     margin: 0;
-    padding: 1rem 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    background-color: rgba(210, 210, 210, 0.4);
+
 }
 
 .nav-item{
     list-style: none;
-    margin-right: 4rem;
-    margin-left: 4rem;
+    white-space: nowrap;
+    padding: 20px 60px 20px 60px;
+    transition: 0.1s;
 }
 
 a{
@@ -395,8 +401,42 @@ macbook air screen size
         max-width: 810px;
     }
 
+    .nav{
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        background-color: rgba(143, 150, 180, 0.0);
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+        margin: 0 auto;
+        backdrop-filter: blur(10px);
+    }
+    
+    .nav-list{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        background-color: transparent;
+        margin: 0;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-around;
+        white-space: nowrap;
+    }
+    
+    .nav-item{
+        list-style: none;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    a{
+        color: white;
+        text-decoration: underline 1px rgba(255, 255, 255, 0);
+        transition: text-decoration-color 300ms;
+    }
+
     .header-container{
         position: relative;
+        height: 760px;
     }
     
     h1{
@@ -429,6 +469,85 @@ macbook air screen size
         top: -50px;
     }
 
+    .eat{
+        padding: 0 18px;
+        overflow: hidden;
+        text-align: center;
+        width: auto;
+        background: linear-gradient(#89A13D, #184E77);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textbox{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        font-weight: 200;
+        background-color: rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(3px);
+        width: 100%;
+    }
+    
+    
+    #eatcontainer{
+        position: relative;
+        text-align: center;
+        transition: 0.1s;
+        margin: 0 auto;
+        width: 810px;
+        height: 200px;
+        cursor: pointer;
+        background-image: url("media/spencer-davis-W_GSHCi0cR8-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px 0px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    
+    
+    #drinkcontainer{
+        position: relative;
+        text-align: center;
+        transition: 0.1s;
+        margin: 0 auto;
+        width: 810px;
+        height: 200px;
+        cursor: pointer;
+        background-image: url("media/kelsey-knight-udj2tD3WKsY-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px, 0px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    
+    
+    #eventscontainer{
+        position: relative;
+        text-align: center;
+        transition: 0.1s;
+        margin: 0 auto;
+        width: 810px;
+        height: 200px;
+        cursor: pointer;
+        background-image: url("media/al-elmes-ULHxWq8reao-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px, 0px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .aboutglenview{
+        margin: 0 auto;
+        position: relative;
+        padding-top: 300px;
+        padding-bottom: 200px;
+        max-width: 700px;
+    }
 }
 
 
