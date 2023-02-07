@@ -105,6 +105,7 @@ a:hover{
 .header-container{
     position: relative;
     top: 150px;
+    height: 1000px;
 }
 
 h1{
@@ -136,30 +137,24 @@ h2{
 .imagecontainer{
     position: relative;
     top: -120px;
-    width: 1920px;
+    width: 100%;
     height: 885px;
     max-width: 1920px;
-    background-size: contain    ;
+    background-size: cover;
     background-image: url("media/final.svg");
     background-repeat: no-repeat;
 }
 
 
-.exploreContainer{
-    background-color: #89A13D;
-}
-
-
 .eat{
-    padding: 0 18px;
     overflow: hidden;
     text-align: center;
-    width: auto;
-    background: linear-gradient(#89A13D, #184E77);
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 550px;
 }
 
 #eatcontainer:hover{
@@ -192,7 +187,7 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -250px, 0px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: 10px 0 5px -2px #0000003b;
 }
 
 
@@ -208,7 +203,7 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -100px, 0px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: 10px 0 5px -2px #0000003b;
 }
 
 #drinkcontainer:hover{
@@ -229,7 +224,7 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -200px, 500px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: 10px 0 5px -2px #0000003b;
 }
 
 #eventscontainer:hover{
@@ -241,7 +236,7 @@ h2{
 .aboutglenview{
     margin: 0 auto;
     position: relative;
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1000px;
 }
@@ -250,26 +245,52 @@ h2{
     margin: 0 auto;
     position: relative;
     height: 100px;
-    background-color: #144265;
+    background: linear-gradient(45deg, #386d95, #229e7d);
+    background-size: 200%;
     text-decoration: none;
     border: none;
     border-radius: 5%;
     cursor: pointer;
     transition-duration: 0.4s;
-    top: 200px;
-}
-
-.membershipwrapper{
-    background-color: rgba(255, 255, 255, 0.2);
-    width: 100%;
-    margin-top: 300px;
-    margin-bottom: 300px;
-    height: 500px;
+    top: 100px;
+    box-shadow: 3px 3px 5px 2px #0000003b;
 }
 
 .membership:hover{
     transform: scale(1.05);
-    background-color: rgba(255, 255, 255, 0.182);
+    background-size: 100%;
+}
+
+.eventswrapper{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.eventsbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.eventitem{
+    border: 1px solid white;
+}
+
+#eventitem1{
+    height: 430px;
+    width: 500px;
+}
+
+#eventitem2{
+    height: 430px;
+    width: 500px;
+}
+
+#eventitem3{
+    height: 430px;
+    width: 500px;
 }
 
 h3{
