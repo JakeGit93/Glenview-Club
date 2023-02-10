@@ -8,29 +8,30 @@ body{
     color: white;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    font-size: 1.2vw;
 }
 
 .wrapper{
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    max-width: 1920px;
-    min-height: 100vh;
+    max-width: 100vw;
+    min-height: 200vh;
 }
 
 .aurora-container{
     position: fixed;
     margin: auto;
-    width: 100vw;
+    max-width: 100vw;
     z-index: -1;
 }
 
 #gradient1{
     position: relative;
     float: right;
-    right: -100px;
-    height: 350px;
-    width: 350px;
+    right: -40em;
+    height: 20em;
+    width: 20em;
     border-radius: 50%;
     background: rgba(52, 160, 164, 0.5);
     filter: blur(100px);
@@ -40,8 +41,8 @@ body{
     position: relative;
     float: left;
     top: 300px;
-    height: 300px;
-    width: 300px;
+    height: 20em;
+    width: 20em;
     border-radius: 50%;
     background: rgba(82, 182, 154, 0.3);
     filter: blur(100px);
@@ -50,9 +51,9 @@ body{
 #gradient3{
     position: relative;
     float: left;
-    left: -300px;
-    height: 100px;
-    width: 100px;
+    left: -20em;
+    height: 10em;
+    width: 10em;
     border-radius: 50%;
     background: rgba(168, 203, 193, 0.5);
     filter: blur(50px);
@@ -71,7 +72,7 @@ body{
 
 .nav-list{
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: min(0.9vw, 1em);
     background-color: transparent;
     margin: 0;
     display: flex;
@@ -87,7 +88,7 @@ body{
 .nav-item{
     list-style: none;
     white-space: nowrap;
-    padding: 20px 60px 20px 60px;
+    padding: 2vh 4vw 2vh 4vw;
     transition: 0.1s;
 }
 
@@ -104,45 +105,110 @@ a:hover{
 
 .header-container{
     position: relative;
-    top: 150px;
-    height: 1000px;
+    top: 10em;
+    height: 50em;
 }
 
 h1{
     font-family: 'Yeseva One', cursive;
-    font-size: 100px;
+    font-size: 5em;
     font-weight: normal;
     position: relative;
     z-index: 1;
     text-align: left;
     margin: 0 auto;
-    margin-left: 250px;
-    top: 40px;
+    margin-left: 15%;
+    top: 10vh;
 }
 
 h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: min(1.4vw, 1em);
+    line-height: 1.5em;
     font-weight: 200;
-    max-width: 900px;
-    top: 120px;
+    max-width: 55em;
+    top: 15vh;
     text-align: left;
     position: relative;
     z-index: 1;
     margin: 0 auto;
-    margin-left: 250px;
+    margin-left: 15%;
+}
+
+h3{
+    font-size: min(3vw, 2em);
+    font-weight: 200;
+    top: 30%;
+    left: 50%;
+    border-bottom: 1px solid white;
+    line-height: 2em;
 }
 
 .imagecontainer{
-    position: relative;
-    top: -120px;
+    position: absolute;
+    top: 25em;
     width: 100%;
-    height: 885px;
-    max-width: 1920px;
-    background-size: cover;
+    height: 100%;
+    min-width: 100vw;
+    background-size: 100%;
     background-image: url("media/final.svg");
     background-repeat: no-repeat;
+}
+
+.aboutglenview{
+    margin: 0 auto;
+    position: relative;
+    padding-top: 20em;
+    padding-bottom: 20em;
+    max-width: 50em;
+}
+
+#aboutthe{
+    line-height: 50%;
+    font-size: min(1vw, 0.5em);
+}
+
+#aboutthedescription{
+    margin: 0 auto;
+    max-width: 55em;
+    font-weight: 200;
+    font-size: min(1.4vw, 1em);
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.membership{
+    margin: 0 auto;
+    position: relative;
+    height: 8em;
+    width: 10em;
+    background: linear-gradient(45deg, #386d95, #229e7d);
+    background-size: 200%;
+    text-decoration: none;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    top: 8em;
+    box-shadow: 3px 3px 5px 2px #0000003b;
+}
+
+.membership:hover{
+    transform: scale(1.05);
+    background-size: 100%;
+}
+
+#becomea{
+    font-size: min(1vw, 1em);
+    color: white;
+    font-weight: 200;
+}
+
+#member{
+    font-size: min(2vw, 3em);
+    color: white;
+    font-weight: 200;
+    max-width: 55em;
 }
 
 
@@ -233,34 +299,6 @@ h2{
 }
 
 
-.aboutglenview{
-    margin: 0 auto;
-    position: relative;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    max-width: 1000px;
-}
-
-.membership{
-    margin: 0 auto;
-    position: relative;
-    height: 100px;
-    background: linear-gradient(45deg, #386d95, #229e7d);
-    background-size: 200%;
-    text-decoration: none;
-    border: none;
-    border-radius: 5%;
-    cursor: pointer;
-    transition-duration: 0.4s;
-    top: 100px;
-    box-shadow: 3px 3px 5px 2px #0000003b;
-}
-
-.membership:hover{
-    transform: scale(1.05);
-    background-size: 100%;
-}
-
 .eventswrapper{
     background-color: rgba(255, 255, 255, 0.2);
     width: 100%;
@@ -293,47 +331,12 @@ h2{
     width: 500px;
 }
 
-h3{
-    font-size: 40px;
-    font-weight: 200;
-    top: 30%;
-    left: 50%;
-    border-bottom: 1px solid white;
-    line-height: 66px;
-}
-
-#aboutthe{
-    line-height: 50%;
-    font-size: 15px;
-}
-
-#becomea{
-    font-size: 15px;
-    color: white;
-    font-weight: 200;
-}
-
-#member{
-    font-size: 40px;
-    color: white;
-    font-weight: 200;
-    width: 200px;
-}
-
-#aboutthedescription{
-    margin: 0 auto;
-    max-width: 1000px;
-    font-weight: 200;
-    font-size: 16px;
-    text-align: justify;
-}
-
 
 .footer{
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     height: 225px;
     background-color: #144265;
     width: 100%;
@@ -392,183 +395,30 @@ h3{
     list-style: none;
 }
 
+#footerlogo{
+    float: right;
+}
+
 /*
 media queries
 */
+@media screen and (min-width: 0px){
+
+
+    .nav{ 
+        width: 100%;
+    }
+
+}
+
 /*
 macbook air screen size
 */
 @media screen and (max-width: 1440px){
-
-    .wrapper{
-        max-width: 1440px;
-    }
-
-    .imagecontainer{
-        position: relative;
-        top: -80px;
-        height: 700px;
-        max-width: 1440px;
-        background-size: contain;
-        background-image: url("media/final.svg");
-        background-repeat: no-repeat;
-    }
 }
 
 /*ipad screen size*/
 @media screen and (max-width: 810px){
-
-    .wrapper{
-        max-width: 810px;
-    }
-
-    .nav{
-        position: sticky;
-        top: 0;
-        z-index: 2;
-        background-color: rgba(143, 150, 180, 0.0);
-        width: 100%;
-        border-radius: 0 0 10px 10px;
-        margin: 0 auto;
-        backdrop-filter: blur(10px);
-    }
-    
-    .nav-list{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 10px;
-        background-color: transparent;
-        margin: 0;
-        padding: 1rem 0;
-        display: flex;
-        justify-content: space-around;
-        white-space: nowrap;
-    }
-    
-    .nav-item{
-        list-style: none;
-        padding: 0px 10px 0px 10px;
-    }
-    
-    a{
-        color: white;
-        text-decoration: underline 1px rgba(255, 255, 255, 0);
-        transition: text-decoration-color 300ms;
-    }
-
-    .header-container{
-        position: relative;
-        height: 760px;
-    }
-    
-    h1{
-        font-family: 'Yeseva One', cursive;
-        font-size: 80px;
-        font-weight: normal;
-        position: relative;
-        top: -50px;
-        z-index: 1;
-        text-align: left;
-        margin-left: 100px;
-    }
-    
-    h2{
-        font-family: 'Poppins', sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 200;
-        max-width: 625px;
-        text-align: left;
-        position: relative;
-        z-index: 1;
-        margin: 0 auto;
-        margin-left: 100px;
-        top: 0;
-    }
-
-    .imagecontainer{
-        max-width: 810px;
-        top: -50px;
-    }
-
-    .eat{
-        padding: 0 18px;
-        overflow: hidden;
-        text-align: center;
-        width: auto;
-        background: linear-gradient(#89A13D, #184E77);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .textbox{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 20px;
-        font-weight: 200;
-        background-color: rgba(0, 0, 0, 0.25);
-        backdrop-filter: blur(3px);
-        width: 100%;
-    }
-    
-    
-    #eatcontainer{
-        position: relative;
-        text-align: center;
-        transition: 0.1s;
-        margin: 0 auto;
-        width: 810px;
-        height: 200px;
-        cursor: pointer;
-        background-image: url("media/spencer-davis-W_GSHCi0cR8-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0px 0px;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    }
-    
-    
-    #drinkcontainer{
-        position: relative;
-        text-align: center;
-        transition: 0.1s;
-        margin: 0 auto;
-        width: 810px;
-        height: 200px;
-        cursor: pointer;
-        background-image: url("media/kelsey-knight-udj2tD3WKsY-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0px, 0px;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    }
-    
-    
-    #eventscontainer{
-        position: relative;
-        text-align: center;
-        transition: 0.1s;
-        margin: 0 auto;
-        width: 810px;
-        height: 200px;
-        cursor: pointer;
-        background-image: url("media/al-elmes-ULHxWq8reao-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0px, 0px;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    }
-
-    .aboutglenview{
-        margin: 0 auto;
-        position: relative;
-        padding-top: 300px;
-        padding-bottom: 200px;
-        max-width: 700px;
-    }
 }
 
 
