@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: 1.2vw;
 }
 
 body{
@@ -8,7 +9,6 @@ body{
     color: white;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
-    font-size: 1.2vw;
 }
 
 .wrapper{
@@ -208,7 +208,7 @@ h3{
     font-size: min(2vw, 3em);
     color: white;
     font-weight: 200;
-    max-width: 55em;
+    max-width: 55rem;
 }
 
 
@@ -337,17 +337,16 @@ h3{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 225px;
     background-color: #144265;
     width: 100%;
+    gap: 10%;
 }
 
 .footerleft{
-    display: flex;
-    flex-direction: column;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     text-align: left;
+    list-style-type: none;
 }
 
 #footertitle{
