@@ -16,7 +16,6 @@ body{
     width: 100%;
     text-align: center;
     max-width: 100vw;
-    min-height: 200vh;
 }
 
 
@@ -150,6 +149,7 @@ h3{
     top: 30%;
     left: 50%;
     line-height: 2em;
+    color: black;
 }
 
 
@@ -157,6 +157,13 @@ h3{
 .wave{
     position: relative;
     bottom: 3rem;
+}
+
+.string{
+    position: absolute;
+    right: 0;
+    top: 28rem;
+    width: 100%;
 }
 
 .aboutglenview{
@@ -171,9 +178,6 @@ h3{
     bottom: 8rem;
 }
 
-.aboutglenview h3{
-    border-bottom: 1px solid black;
-}
 
 #aboutthedescription{
     margin: 0 auto;
@@ -192,21 +196,21 @@ h3{
     position: relative;
     height: 8em;
     width: 15em;
-    background: linear-gradient(45deg, #387f95, #2dd1a6);
-    background-size: 200%;
+    background: linear-gradient(334deg, #6b97f7, #2dd1a6, #387f95);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
     text-decoration: none;
     border: none;
     border-radius: 5%;
     cursor: pointer;
     transition-duration: 0.4s;
-    top: 5em;
+    top: 8rem;
     box-shadow: 0.2rem 0.2rem 1rem 0.2rem #0000003b;
     margin-bottom: 15rem;
 }
 
 .membership:hover{
     transform: scale(1.05);
-    background-size: 100%;
 }
 
 #becomea{
@@ -222,17 +226,33 @@ h3{
     max-width: 55rem;
 }
 
+.wave2{
+    position: relative;
+    bottom: 8rem;
+}
+
 
 
 /*----cards----*/
 
-.explorewrapper{
+.wave3{
     position: relative;
-    top: 10rem;
+    bottom: 18rem;
 }
 
+.explorewrapper{
+    position: relative;
+    background-color:#ffffff;
+    padding-top: 4rem;
+    bottom: 25rem;
+}
+
+.explorewrapper h3{
+    color: black;
+}
 
 .explore{
+    background-color: white;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -242,7 +262,6 @@ h3{
     align-items: center;
     justify-content: center;
     height: 35rem;
-    top: 3rem;
 }
 
 .textbox{
@@ -270,7 +289,7 @@ h3{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -10rem, 0px;
-    box-shadow: 1rem 0 2rem -1rem #0000003b;
+    box-shadow: rgba(0, 0, 0, 0.45) 0.5rem -0.5rem 1rem 0.1rem;
 }
 
 #eatcontainer:hover{
@@ -290,7 +309,8 @@ h3{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -5rem, 0px;
-    box-shadow: 1rem 0 2rem -1rem #0000003b;}
+    box-shadow: rgba(0, 0, 0, 0.45) 0.5rem -0.5rem 1rem 0.1rem;
+}
 
 #drinkcontainer:hover{
     transform: scale(1.05);
@@ -309,23 +329,27 @@ h3{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -7rem, 10rem;
-    box-shadow: 1rem 0 2rem -1rem #0000003b;}
+    box-shadow: rgba(0, 0, 0, 0.45) 0.5rem -0.5rem 1rem 0.1rem;
+}
 
 #eventscontainer:hover{
     transform: scale(1.05);
     z-index: 1;
 }
 
+.wave5{
+    position: relative;
+    bottom: 31rem;
+}
 
 /*----events----*/
 .eventswrapper{
     position: relative;
-    top: 20rem;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: white;
     width: 100%;
     height: 29rem;
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    bottom: 40rem;
 }
 
 .eventsbox{
@@ -338,13 +362,17 @@ h3{
     width: 29rem;
 }
 
+.wave4{
+    position: relative;
+    bottom: 25rem;
+}
+
 
 
 
 /*----FOOTER----*/
 .footerwrapper{
     position: relative;
-    top: 10rem;
 }
 
 .footerwave{
@@ -379,6 +407,14 @@ h3{
     text-decoration: none;
     font-weight: 200;
     list-style: none;
+}
+
+#sitemap a{
+    color: black;
+}
+
+#sitemap a:hover{
+    text-decoration: underline;
 }
 
 .title{
@@ -421,4 +457,16 @@ h3{
 
 @keyframes bounce{
     to { transform: scale(1.1); }
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
