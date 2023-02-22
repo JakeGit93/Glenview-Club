@@ -145,12 +145,12 @@ h2{
 
 h3{
     font-family: 'Raleway', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 300;
     top: 30%;
     left: 50%;
     line-height: 2em;
-    color: black;
+    color: black;   
 }
 
 
@@ -163,7 +163,7 @@ h3{
 .string{
     position: absolute;
     right: 0;
-    top: 28rem;
+    top: 32rem;
     width: 100%;
 }
 
@@ -205,7 +205,7 @@ h3{
     border-radius: 5%;
     cursor: pointer;
     transition-duration: 0.4s;
-    top: 8rem;
+    top: 4rem;
     box-shadow: 0.2rem 0.2rem 1rem 0.2rem #0000003b;
     margin-bottom: 15rem;
 }
@@ -230,6 +230,7 @@ h3{
 .wave2{
     position: relative;
     bottom: 8rem;
+    z-index: -1;
 }
 
 

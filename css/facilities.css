@@ -133,16 +133,45 @@ h2{
 h3{
     position: relative;
     font-family: 'Yeseva One', cursive;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 300;
     line-height: 2em;
     margin: 0 auto;
     text-align: left;
     margin-left: 15%;
-    top: 15rem;
+    top: 7rem;
+    margin-bottom: 3rem;
+    text-decoration: underline;
     color: white;
 }
 
+.facilities{
+    position: relative;
+    top: 10rem;
+}
+
+.peacockes{
+    position: relative;
+    background-image: url("../media/peacockesphoto.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+    filter: blur(0.1rem);
+}
+
+.riverview h3{
+    line-height: 4rem;
+    top: 11rem;
+}
+
+.riverview{
+    position: relative;
+    background-image: url("../media/riverview.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+    filter: blur(0.1rem);
+}
 
 
 
