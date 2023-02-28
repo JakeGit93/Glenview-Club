@@ -154,6 +154,7 @@ p{
     margin-left: 15%;
     max-width: 65rem;
     text-shadow: 5px 5px 2px #1f232681;
+    font-weight: 200;
 }
 
 .facilities{
@@ -191,8 +192,35 @@ p{
     top: 55rem;
 }
 
+.gamingContainer p{
+    top: 63rem;
+}
+
 .backgroundGaming{
     background-image: url("../media/ays-be-BD4pN-2zw7s-unsplash.png");
+    filter: blur(0.1rem);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+    z-index: 0;
+}
+
+.poolContainer{
+}
+
+.poolContainer h3{
+    position: absolute;
+    top: 105rem;
+    line-height: 4rem;
+}
+
+.poolContainer p{
+    top: 112rem;
+}
+
+.backgroundPool{
+    background-image: url("../media/markus-winkler-0FGATwbtw0o-unsplash\ 1.png");
     filter: blur(0.1rem);
     position: relative;
     background-size: cover;
@@ -206,7 +234,11 @@ p{
 
 .peacockesContainer h3{
     position: absolute;
-    top: 105rem;
+    top: 155rem;
+}
+
+.peacockesContainer p{
+    top: 163rem;
 }
 
 .backgroundPeacockes{
@@ -225,7 +257,11 @@ p{
 .riverviewContainer h3{
     position: absolute;
     line-height: 4rem;
-    top: 155rem;
+    top: 205rem;
+}
+
+.riverviewContainer p{
+    top: 212rem;
 }
 
 .backgroundRiverview{
@@ -243,7 +279,11 @@ p{
 .motorhomeContainer h3{
     position: absolute;
     line-height: 4rem;
-    top: 205rem;
+    top: 255rem;
+}
+
+.motorhomeContainer p{
+    top: 262rem;
 }
 
 .backgroundMotorhome{
