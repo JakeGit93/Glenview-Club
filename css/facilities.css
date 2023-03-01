@@ -174,7 +174,7 @@ p{
 }
 
 .backgroundMainbar{
-    background-image: url("../media/alex-voulgaris-fVaoxmNU46o-unsplash.jpg");
+    background-image: url("../media/alex-voulgaris-fVaoxmNU46o-unsplash.webp");
     filter: blur(0.1rem);
     position: relative;
     background-size: cover;
@@ -197,7 +197,7 @@ p{
 }
 
 .backgroundGaming{
-    background-image: url("../media/ays-be-BD4pN-2zw7s-unsplash.png");
+    background-image: url("../media/ays-be-BD4pN-2zw7s-unsplash.webp");
     filter: blur(0.1rem);
     position: relative;
     background-size: cover;
@@ -220,7 +220,7 @@ p{
 }
 
 .backgroundPool{
-    background-image: url("../media/markus-winkler-0FGATwbtw0o-unsplash\ 1.png");
+    background-image: url("../media/markus-winkler-0FGATwbtw0o-unsplash\ 1.webp");
     filter: blur(0.1rem);
     position: relative;
     background-size: cover;
@@ -242,7 +242,7 @@ p{
 }
 
 .backgroundPeacockes{
-    background-image: url("../media/peacockesphoto.png");
+    background-image: url("../media/peacockesphoto.webp");
     filter: blur(0.1rem);
     position: relative;
     background-size: cover;
@@ -266,7 +266,7 @@ p{
 
 .backgroundRiverview{
     position: relative;
-    background-image: url("../media/riverview.png");
+    background-image: url("../media/riverview.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 50rem;
@@ -288,7 +288,7 @@ p{
 
 .backgroundMotorhome{
     position: relative;
-    background-image: url("../media/lucas-favre-pNrD2jNRk8Y-unsplash.png");
+    background-image: url("../media/lucas-favre-pNrD2jNRk8Y-unsplash.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0rem -40rem;

@@ -111,7 +111,7 @@ a:hover{
     top: 10em;
     height: 50em;
     background-size: 100%;
-    background-image: url("../media/final.svg");
+    background-image: url("../media/final-min.webp");
     background-repeat: no-repeat;
     background-position: 0px 12rem;
 }
@@ -150,7 +150,8 @@ h3{
     top: 30%;
     left: 50%;
     line-height: 2em;
-    color: black;   
+    color: black;
+    text-shadow: 5px 5px 2px #9fb2c057;
 }
 
 
@@ -249,9 +250,6 @@ h3{
     bottom: 15rem;
 }
 
-.explorewrapper h3{
-    color: black;
-}
 
 .explore{
     background-color: white;
@@ -287,7 +285,7 @@ h3{
     width: 29rem;
     height: 29rem;
     cursor: pointer;
-    background-image: url("../media/spencer-davis-W_GSHCi0cR8-unsplash.jpg");
+    background-image: url("../media/spencer-davis-W_GSHCi0cR8-unsplash-min.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -10rem, 0px;
@@ -307,7 +305,7 @@ h3{
     width: 29rem;
     height: 29rem;
     cursor: pointer;
-    background-image: url("../media/kelsey-knight-udj2tD3WKsY-unsplash.jpg");
+    background-image: url("../media/kelsey-knight-udj2tD3WKsY-unsplash-min.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -5rem, 0px;
@@ -327,7 +325,7 @@ h3{
     width: 29rem;
     height: 29rem;
     cursor: pointer;
-    background-image: url("../media/al-elmes-ULHxWq8reao-unsplash.jpg");
+    background-image: url("../media/al-elmes-ULHxWq8reao-unsplash-min.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -7rem, 10rem;

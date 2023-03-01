@@ -162,6 +162,52 @@ h3{
     margin: 0 auto;
 }
 
+.eventswrapper{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    margin-top: 5rem;
+    bottom: 20rem;
+}
+
+#book{
+    margin-top: 3rem;
+}
+
+.membership{
+    margin: 0 auto;
+    position: relative;
+    height: 8em;
+    width: 15em;
+    background: linear-gradient(334deg, #6b97f7, #2dd1a6, #387f95);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+    text-decoration: none;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0.2rem 0.2rem 1rem 0.2rem #0000003b;
+    margin-bottom: 5rem;
+    top: 5rem;
+}
+
+.membership:hover{
+    transform: scale(1.05);
+}
+
+#becomea{
+    font-size: min(2vw, 1em);
+    color: white;
+    font-weight: 200;
+}
+
+#member{
+    font-size: min(3vw, 3em);
+    color: white;
+    font-weight: 200;
+    max-width: 55rem;
+}
 
 
 /*----FOOTER----*/

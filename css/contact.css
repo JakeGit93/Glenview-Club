@@ -141,7 +141,67 @@ h3{
 }
 
 
+.description{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 0 auto;
+    position: relative;
+    max-width: 100%;
+    margin-top: 13rem;
+    margin-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
 
+.description p{
+    margin: 0 auto;
+    max-width: 55em;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.description textarea{
+    min-width: 50rem;
+    min-height: 20rem;
+}
+
+.description input{
+    min-width: 20rem;
+}
+
+.description button{
+    margin: 0 auto;
+    position: relative;
+    height: 5rem;
+    width: 10rem;
+    background: linear-gradient(334deg, #6b97f7, #2dd1a6, #387f95);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+    text-decoration: none;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0.2rem 0.2rem 1rem 0.2rem #0000003b;
+    margin-bottom: 5rem;
+}
+
+.description button p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.form{
+    font-weight: 200;
+    text-align: left;
+    margin-left: 15%;
+}
 
 /*----FOOTER----*/
 .footerwrapper{
