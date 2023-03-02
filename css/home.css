@@ -103,136 +103,133 @@ a:hover{
 }
 
 
+@media screen and (min-width: 811px){
+    /*----header----*/
+    .header-container{
+        position: relative;
+        top: 10em;
+        height: 50em;
+        background-size: 100%;
+        background-image: url("../media/final-min.webp");
+        background-repeat: no-repeat;
+        background-position: 0px 12rem;
+    }
 
 
-/*----header----*/
-.header-container{
-    position: relative;
-    top: 10em;
-    height: 50em;
-    background-size: 100%;
-    background-image: url("../media/final-min.webp");
-    background-repeat: no-repeat;
-    background-position: 0px 12rem;
+    h1{
+        font-family: 'Yeseva One', cursive;
+        font-size: 5em;
+        font-weight: normal;
+        position: relative;
+        z-index: 1;
+        text-align: left;
+        margin: 0 auto;
+        margin-left: 15%;
+        top: 2rem;
+    }
+
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: min(1.4vw, 1em);
+        line-height: 1.5em;
+        font-weight: 200;
+        max-width: 55em;
+        top: 13vh;
+        text-align: left;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        margin-left: 15%;
+    }
+
+    h3{
+        font-family: 'Raleway', sans-serif;
+        font-size: 4rem;
+        font-weight: 300;
+        top: 30%;
+        left: 50%;
+        line-height: 2em;
+        color: black;
+        text-shadow: 5px 5px 2px #9fb2c057;
+    }
+
+    .wave{
+        position: relative;
+        bottom: 3rem;
+    }
+    
+    /*----about glenview----*/
+    .string{
+        position: absolute;
+        right: 0;
+        top: 32rem;
+        width: 100%;
+    }
+
+    .aboutglenview{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        margin: 0 auto;
+        position: relative;
+        max-width: 100%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        height: 30rem;
+        bottom: 8rem;
+    }
+
+
+    #aboutthedescription{
+        margin: 0 auto;
+        max-width: 55em;
+        font-weight: 200;
+        font-size: 1rem;
+        line-height: 1.5em;
+        text-align: justify;
+    }
+    /*----membership button----*/
+    .membership{
+        margin: 0 auto;
+        position: relative;
+        height: 8em;
+        width: 15em;
+        background: linear-gradient(334deg, #6b97f7, #2dd1a6, #387f95);
+        background-size: 180% 180%;
+        animation: gradient-animation 6s ease infinite;
+        text-decoration: none;
+        border: none;
+        border-radius: 5%;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        top: 4rem;
+        box-shadow: 0.2rem 0.2rem 1rem 0.2rem #0000003b;
+        margin-bottom: 15rem;
+    }
+
+    .membership:hover{
+        transform: scale(1.05);
+    }
+
+    #becomea{
+        font-size: min(2vw, 1em);
+        color: white;
+        font-weight: 200;
+    }
+
+    #member{
+        font-size: min(3vw, 3em);
+        color: white;
+        font-weight: 200;
+        max-width: 55rem;
+    }
+
+    .wave2{
+        position: relative;
+        bottom: 8rem;
+        z-index: -1;
+    }
 }
 
-
-h1{
-    font-family: 'Yeseva One', cursive;
-    font-size: 5em;
-    font-weight: normal;
-    position: relative;
-    z-index: 1;
-    text-align: left;
-    margin: 0 auto;
-    margin-left: 15%;
-    top: 2rem;
-}
-
-h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: min(1.4vw, 1em);
-    line-height: 1.5em;
-    font-weight: 200;
-    max-width: 55em;
-    top: 13vh;
-    text-align: left;
-    position: relative;
-    z-index: 1;
-    margin: 0 auto;
-    margin-left: 15%;
-}
-
-h3{
-    font-family: 'Raleway', sans-serif;
-    font-size: 4rem;
-    font-weight: 300;
-    top: 30%;
-    left: 50%;
-    line-height: 2em;
-    color: black;
-    text-shadow: 5px 5px 2px #9fb2c057;
-}
-
-
-/*----about glenview----*/
-.wave{
-    position: relative;
-    bottom: 3rem;
-}
-
-.string{
-    position: absolute;
-    right: 0;
-    top: 32rem;
-    width: 100%;
-}
-
-.aboutglenview{
-    background-color: rgb(255, 255, 255);
-    color: black;
-    margin: 0 auto;
-    position: relative;
-    max-width: 100%;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    height: 30rem;
-    bottom: 8rem;
-}
-
-
-#aboutthedescription{
-    margin: 0 auto;
-    max-width: 55em;
-    font-weight: 200;
-    font-size: 1rem;
-    line-height: 1.5em;
-    text-align: justify;
-}
-
-
-
-/*----membership button----*/
-.membership{
-    margin: 0 auto;
-    position: relative;
-    height: 8em;
-    width: 15em;
-    background: linear-gradient(334deg, #6b97f7, #2dd1a6, #387f95);
-	background-size: 180% 180%;
-	animation: gradient-animation 6s ease infinite;
-    text-decoration: none;
-    border: none;
-    border-radius: 5%;
-    cursor: pointer;
-    transition-duration: 0.4s;
-    top: 4rem;
-    box-shadow: 0.2rem 0.2rem 1rem 0.2rem #0000003b;
-    margin-bottom: 15rem;
-}
-
-.membership:hover{
-    transform: scale(1.05);
-}
-
-#becomea{
-    font-size: min(2vw, 1em);
-    color: white;
-    font-weight: 200;
-}
-
-#member{
-    font-size: min(3vw, 3em);
-    color: white;
-    font-weight: 200;
-    max-width: 55rem;
-}
-
-.wave2{
-    position: relative;
-    bottom: 8rem;
-    z-index: -1;
-}
 
 
 
@@ -424,26 +421,146 @@ h3{
 
 
 
-
-
 /*----media queries----*/
-@media screen and (min-width: 0px){
-
-    .nav{ 
-        width: 100%;
-    }
-
-}
-
-/*----macbook air screen size----*/
-@media screen and (max-width: 1440px){
-}
-
 /*----ipad screen size----*/
 @media screen and (max-width: 810px){
 }
 
+/*----mobile screen size----*/
+@media screen and (max-width: 450px){
 
+    h1{
+        font-family: 'Yeseva One', cursive;
+        font-size: 15rem;
+        font-weight: normal;
+        position: relative;
+        z-index: 1;
+        text-align: left;
+        justify-content: center;
+        margin: 0 auto;
+        top: 12rem;
+        text-shadow: 2px 2px 2px #24292c90;
+    }
+    
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 4rem;
+        line-height: 1.5em;
+        font-weight: 200;
+        max-width: 70rem;
+        top: 30rem;
+        text-align: left;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        color: black;
+    }
+    
+    h3{
+        font-family: 'Raleway', sans-serif;
+        font-size: 4rem;
+        font-weight: 300;
+        top: 30%;
+        left: 50%;
+        line-height: 2em;
+        color: black;
+        text-shadow: 5px 5px 2px #9fb2c057;
+    }
+
+    /*----header----*/
+    .header-container{
+        position: relative;
+        bottom: 5rem;
+        height: 50rem;
+        background-size: 100%;
+        background-image: url("../media/final-min.webp");
+        background-repeat: no-repeat;
+        background-position: 0px 12rem;
+    }
+    
+    
+    /*----about glenview----*/
+    .wave{
+        position: relative;
+        bottom: 17.5rem;
+    }
+
+    .string{
+        position: absolute;
+        right: 0;
+        top: 32rem;
+        width: 100%;
+    }
+
+    .aboutglenview{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        margin: 0 auto;
+        position: relative;
+        max-width: 100%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        height: 120rem;
+        bottom: 20rem;
+    }
+
+    .aboutglenview h3{
+        display: none;
+    }
+
+
+    #aboutthedescription{
+        display: none;
+        margin: 0 auto;
+        max-width: 55em;
+        font-weight: 200;
+        font-size: 1rem;
+        line-height: 1.5em;
+        text-align: justify;
+    }
+
+    .string{
+        display: none;
+    }
+
+    /*----membership button----*/
+    .membership{
+        margin: 0 auto;
+        position: relative;
+        height: 25rem;
+        width: 50rem;
+        background: linear-gradient(334deg, #6b97f7, #2dd1a6, #387f95);
+        background-size: 180% 180%;
+        animation: gradient-animation 6s ease infinite;
+        text-decoration: none;
+        border: none;
+        border-radius: 5%;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        top: 95rem;
+        box-shadow: 0.2rem 0.2rem 1rem 0.2rem #0000003b;
+        margin-bottom: 15rem;
+    }
+
+    #becomea{
+        font-size: 5rem;
+        color: white;
+        font-weight: 200;
+    }
+
+    #member{
+        font-size: 6rem;
+        color: white;
+        font-weight: 200;
+        max-width: 55rem;
+    }
+
+    .wave2{
+        position: relative;
+        bottom: 20.05rem;
+    }
+
+}
 
 
 
